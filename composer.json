@@ -1,0 +1,30 @@
+{
+    "name": "gmaissa/behat-contexts",
+    "description": "Behat Contexts",
+    "license": "MIT",
+    "keywords": ["Behat", "Context"],
+    "authors": [
+        {
+            "name": "Guillaume Maïssa",
+            "email": "guillaume@maissa.fr"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"GMaissa\\BehatContexts\\": "src/"}
+    },
+    "require": {
+        "behat/behat": "^3.1",
+        "behat/symfony2-extension": "^2.1",
+        "behat/mink-extension": "^2.2",
+        "behat/mink-selenium2-driver": "^1.2",
+        "phpunit/phpcov": "~2.0"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^2.0",
+        "phpmd/phpmd": "^2.4",
+        "sebastian/phpcpd": "^2.0"
+    },
+    "suggest": {
+        "phpunit/phpcov": "Required if you want to use the Coverage contexts"
+    }
+}
